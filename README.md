@@ -1,4 +1,4 @@
-# 🈶 Deteksi Aksara Jawa  
+# Deteksi Aksara Jawa  
 ### Aplikasi Flutter dengan Machine Learning (TensorFlow Lite) & Node.js API
 
 Proyek ini merupakan **aplikasi mobile berbasis Flutter** untuk **mendeteksi dan mengenali Aksara Jawa** menggunakan **Machine Learning**.  
@@ -68,7 +68,7 @@ flutter --version
 git clone https://github.com/AlvianPh/aksara_detection.git
 cd aksara_detection
 ```
-2. Menjalankan Backend dengan nama file (api)
+2. Menjalankan Backend dengan nama folder (api) dan database jawir
 ```bash
 cd api
 ```
