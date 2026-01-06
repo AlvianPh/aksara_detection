@@ -1,0 +1,32 @@
+name: aksara_detection
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  camera: ^0.11.0
+  path_provider: ^2.1.2
+  flutter_svg: ^2.0.9
+  tflite_flutter: ^0.12.1
+  image: ^4.0.15
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/aksara_hybrid_int8.tflite
+    - assets/images/
+    - assets/model/label_map.json
